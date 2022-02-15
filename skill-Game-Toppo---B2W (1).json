@@ -1,0 +1,831 @@
+{
+  "intents": [
+    {
+      "intent": "adicionar_cadastro",
+      "examples": [
+        {
+          "text": "Acrescentar usuário"
+        },
+        {
+          "text": "Adicionar cadastro"
+        },
+        {
+          "text": "Adicione um usuário"
+        },
+        {
+          "text": "Gostaria de adicionar um cadastro"
+        },
+        {
+          "text": "Me ajude a fazer um novo cadastro"
+        },
+        {
+          "text": "Quero fazer um cadastro novo"
+        }
+      ],
+      "description": "Gostaria de adicionar um cadastro "
+    },
+    {
+      "intent": "adicionar_missoes",
+      "examples": [
+        {
+          "text": "adicionar missoes"
+        },
+        {
+          "text": "adicionar missões"
+        },
+        {
+          "text": "Adicionar nova missão"
+        },
+        {
+          "text": "Gostaria de adicionar uma nova missão"
+        },
+        {
+          "text": "Me ajude a acrescentar esta missão"
+        },
+        {
+          "text": "Quero adicionar uma missão"
+        }
+      ],
+      "description": "Indica a intenção de adicionar novas missões à plataforma. "
+    },
+    {
+      "intent": "ajuda",
+      "examples": [
+        {
+          "text": "Ajuda"
+        },
+        {
+          "text": "continue"
+        },
+        {
+          "text": "Gostaria de ajuda pra usar o serviço"
+        },
+        {
+          "text": "Gostaria de entender sobre o game"
+        },
+        {
+          "text": "Me ajuda?"
+        },
+        {
+          "text": "Não sei como usar o serviço"
+        },
+        {
+          "text": "Preciso de ajuda"
+        }
+      ],
+      "description": "Indica a intenção de obter ajuda do bot."
+    },
+    {
+      "intent": "ajudajogo",
+      "examples": [
+        {
+          "text": "Gostaria de ajuda sobre o game"
+        },
+        {
+          "text": "Gostaria de ajuda sobre o jogo"
+        },
+        {
+          "text": "Jogo"
+        },
+        {
+          "text": "O que é esse jogo"
+        },
+        {
+          "text": "sobre o jogo"
+        }
+      ],
+      "description": "Ajuda relacionada ao desenvolvimento do jogo"
+    },
+    {
+      "intent": "cadastro",
+      "examples": [
+        {
+          "text": "cadastro"
+        },
+        {
+          "text": "cadastros"
+        }
+      ],
+      "description": "Direcionando a perguntas sobre cadastro"
+    },
+    {
+      "intent": "depoisdamissão",
+      "examples": [
+        {
+          "text": "depois da missao"
+        },
+        {
+          "text": "depois da missão"
+        },
+        {
+          "text": "Gostaria de saber o que acontece depois da missão"
+        },
+        {
+          "text": "pós missão"
+        }
+      ],
+      "description": "Explicação ao colaborador do que acontece depois de uma missão"
+    },
+    {
+      "intent": "despedir",
+      "examples": [
+        {
+          "text": "Até depois"
+        },
+        {
+          "text": "Até mais"
+        },
+        {
+          "text": "Fim"
+        },
+        {
+          "text": "Nos falamos depois"
+        },
+        {
+          "text": "Tchau"
+        },
+        {
+          "text": "Vou indo nessa"
+        }
+      ],
+      "description": "Indica a intenção de finalizar a conversa, se despedir, encerrar."
+    },
+    {
+      "intent": "editar_cadastro",
+      "examples": [
+        {
+          "text": "Alterar cadastro"
+        },
+        {
+          "text": "editar cadastro"
+        },
+        {
+          "text": "editar cadastros"
+        },
+        {
+          "text": "Quero fazer uma alteração cadastral"
+        },
+        {
+          "text": "Você pode alterar o cadastro?"
+        },
+        {
+          "text": "Você pode me ajudar a editar um cadastro?"
+        }
+      ],
+      "description": "Indica a intenção de alterar o cadastro de um usuário (para gestores). "
+    },
+    {
+      "intent": "editar_missoes",
+      "examples": [
+        {
+          "text": "editar missao"
+        },
+        {
+          "text": "editar missões"
+        },
+        {
+          "text": "Edite uma missão"
+        },
+        {
+          "text": "Gostaria de alterar uma missão"
+        },
+        {
+          "text": "Gostaria de editar uma missão"
+        },
+        {
+          "text": "Quero editar uma missão"
+        }
+      ],
+      "description": "Indica a intenção de editar uma missão. "
+    },
+    {
+      "intent": "excluir_cadastro",
+      "examples": [
+        {
+          "text": "Excluir cadastro"
+        },
+        {
+          "text": "excluir cadastros"
+        },
+        {
+          "text": "Gostaria de excluir um cadastro"
+        },
+        {
+          "text": "Gostaria de remover um cadastro"
+        },
+        {
+          "text": "Quero deletar um usuário"
+        },
+        {
+          "text": "Remover cadastros"
+        }
+      ],
+      "description": "Indica a intenção de alterar o cadastro de um usuário (para gestores). "
+    },
+    {
+      "intent": "excluir_missoes",
+      "examples": [
+        {
+          "text": "Excluir missoes"
+        },
+        {
+          "text": "Gostaria de excluir uma missao"
+        },
+        {
+          "text": "Gostaria de remover uma missao"
+        },
+        {
+          "text": "Gostaria de remover uma missão"
+        },
+        {
+          "text": "remover missoes"
+        },
+        {
+          "text": "remover missões"
+        }
+      ],
+      "description": "Indica a intenção de excluir uma missão. "
+    },
+    {
+      "intent": "indicar_termino",
+      "examples": [
+        {
+          "text": "A missão está concluída"
+        },
+        {
+          "text": "A missão foi encerrada"
+        },
+        {
+          "text": "Confirmo o término da missão"
+        },
+        {
+          "text": "Encerrar missão"
+        },
+        {
+          "text": "Fim da missão"
+        },
+        {
+          "text": "Missão completa"
+        }
+      ],
+      "description": "Indica a intenção de confirmar a conclusão de uma missão. "
+    },
+    {
+      "intent": "inicio",
+      "examples": [
+        {
+          "text": "inicio"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Missões",
+      "examples": [
+        {
+          "text": "missao"
+        },
+        {
+          "text": "missões"
+        }
+      ],
+      "description": "Direcionando a pergunta sobre missões"
+    },
+    {
+      "intent": "nao",
+      "examples": [
+        {
+          "text": "nao"
+        },
+        {
+          "text": "não"
+        },
+        {
+          "text": "sair"
+        }
+      ],
+      "description": "Melhorar a experiência do usuário"
+    },
+    {
+      "intent": "saudar",
+      "examples": [
+        {
+          "text": "bem"
+        },
+        {
+          "text": "E ai?"
+        },
+        {
+          "text": "Oi"
+        },
+        {
+          "text": "Oi, como vai?"
+        },
+        {
+          "text": "Olá"
+        },
+        {
+          "text": "Tudo bem?"
+        }
+      ],
+      "description": "Intenção criada para o início da conversa do Bot, indica a intenção de cumprimentar."
+    },
+    {
+      "intent": "sim",
+      "examples": [
+        {
+          "text": "chave"
+        },
+        {
+          "text": "nao sei"
+        },
+        {
+          "text": "palavra chave"
+        },
+        {
+          "text": "palavra-chave"
+        },
+        {
+          "text": "sim"
+        },
+        {
+          "text": "termos"
+        }
+      ],
+      "description": "Assuntos diversos, é um auxiliador para direcionar o usuário"
+    },
+    {
+      "intent": "visualizar_missoes",
+      "examples": [
+        {
+          "text": "Gostaria de visualizar uma missão"
+        },
+        {
+          "text": "Quero visualizar a missão"
+        },
+        {
+          "text": "visualizar missao"
+        },
+        {
+          "text": "visualizar missões"
+        },
+        {
+          "text": "Você pode exibir a missão?"
+        },
+        {
+          "text": "Você pode me mostrar a missão?"
+        }
+      ],
+      "description": "Indica a intenção de visualizar uma missão. "
+    }
+  ],
+  "entities": [],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bem-vindo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá! Seja muito bem vindo(a)!!!\n\nÉ um prazer lhe atender, sou o Bot Toppo, e estou a disposição para esclarecer duvidas sobre o sistema\nEm que posso lhe ajudar?\n\nTodavia gostaria de lhe informar que á qualquer momento para reiniciar o atendimento digite \"inicio\", e \"fim\" para encerrar."
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Excluir missões",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Entendido. Para a missão ser excluída, o usuário deverá ser um gestor, e ao realizar seu acesso no game, deverá observar se a missão estar em andamento, se a mesma estiver sendo realizada, a exclusão não poderá ser feita. Porém, se a sessão não estiver disponível aos colaboradores, deverá ser selecionada a opção excluir missões. Ajudo em algo mais? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#excluir_missoes",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_10_1603483718739",
+      "previous_sibling": "node_4_1603483571766"
+    },
+    {
+      "type": "standard",
+      "title": "Termino de missões",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Se a sua intenção estiver relacionada a dúvidas sobre término de missões, vou lhe explicar brevemente. Se desejar continuar digite \"Missão completa\" ou \" fim da missão\". Se deseja reiniciar o sistema digite \"inicio\", ou \"fim\" para encerrar."
+              },
+              {
+                "text": "Ok, que bom que desejou continuar com a explicação.\nAo concluir um missão, o usuário deverá se atentar para todas as questões e objetivos propostos se estão finalizados, o tempo também é fator determinante para a qualificação no ranking. E ao terminar sua missão a mesma deverá informar que a missão foi completada. Se deseja saber o próximo passo digite \" depois da missão\".  "
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#indicar_termino",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1604167992213",
+      "previous_sibling": "node_5_1604167236873"
+    },
+    {
+      "type": "standard",
+      "title": "Depois da missão",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O gestor ao analisar o conteúdo deverá, formatar o relatório e assim dispor a qualificação da missão, se realmente foi cumprida da maneira efetiva. E ao terminar essa seleção os colaboradores que tiveram melhor desempenho, ficarão nas melhores posições, e estrão aptos a receberem as bonificações ou benefícios que serão determinados pelos gerentes e o RH da empresa. Ajudo em algo mais?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#depoisdamissão",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1604168580726",
+      "previous_sibling": "node_2_1603484408267"
+    },
+    {
+      "type": "standard",
+      "title": "O game Toppo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O game toppo foi desenvolvido para atender os funcionários do grupo B2W, o intuito é inserir o colaborador em um game, que está disposto em missões que foram criadas por gestores e cada equipe tem por meta realizar as tarefas e adquirir pontos que poderão ser convertidos de várias maneiras, desde como uma promoção de cargo ou á outros benefícios.\nOs colaboradores serão comparados através de um ranking interno, e os gestores terão a oportunidade de observar cada colaborador, descobrir eventuais erros, e buscar de forma efetiva a excelência. Ajudo em algo mais?"
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#ajudajogo",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1603482466798",
+      "previous_sibling": "node_8_1604166451112"
+    },
+    {
+      "type": "standard",
+      "title": "Visualizar missões",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Entendido. Para visualizar uma missão, o usuário deverá logar no game, e ir na opção de visualizar missões. Ajudo em algo mais?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#visualizar_missoes",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1603484408267",
+      "previous_sibling": "node_3_1603483897976"
+    },
+    {
+      "type": "standard",
+      "title": "Excluir cadastro",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Entendido, para excluir um cadastro, o usuário deverá estar logado e após selecionar a opção cadastro e excluir cadastro. Ajudo em mais alguma coisa?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#excluir_cadastro",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1603487233788",
+      "previous_sibling": "node_6_1603487140928"
+    },
+    {
+      "type": "standard",
+      "title": "Editar missões",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok. Para editar missões, após logado, você deverá observar se a missão que deseja editar, se não está em andamento, pois a edição não poderá ser realizada. Verificado a disponibilidade, o usuário deverá ir na opção de editar, e realizar as modificações. Ajudo em algo mais?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#editar_missoes",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1603483897976",
+      "previous_sibling": "node_10_1603483718739"
+    },
+    {
+      "type": "standard",
+      "title": "Encerramento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Se não ajudo em mais nada, encerro o nosso chat...\nVolte sempre que necessitar.\nSe desejar voltar ao atendimento digite \"inicio\".\nFoi um prazer lhe atender, Equipe Toppo agradece!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#despedir",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1603486888492",
+      "previous_sibling": "node_9_1603487467872"
+    },
+    {
+      "type": "standard",
+      "title": "Adicionar missões",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Certo. Para adicionar a missão, você deverá ter o acesso de gestor e ao realizar o login e senha no sistema, clicar na opção missão, adicionar e determinar o grau de dificuldade x tempo da missão, além de determinar qual equipe ou colaborador deverá realizar essa missão. Ajudo em algo mais? Lembrando que a qualquer momento você pode reiniciar o atendimento digitando \"inicio\", ou para encerrar \"fim'\"."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#adicionar_missoes",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1603483571766",
+      "previous_sibling": "node_2_1603482466798"
+    },
+    {
+      "type": "standard",
+      "title": "Sobre a ideia - Sistema",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Entendido! Vou explicar direitinho como funciona... O sistema Toppo, é baseado no conceito de melhoria continua em busca da excelência dos colaboradores, tendo o objetivo de integrar os setores em busca da eficácia nos cumprimentos de prazos e tarefas. Gostaria de continuar á explicação? Digite \"continue\", ou \"fim\" pra encerrar o atendimento."
+              },
+              {
+                "text": "Pois bem, os desenvolvedores preocupados com a melhor forma de integrar os usuários de uma forma dinâmica, divertida, e prática, decidiram desenvolver esse game. Que é composto por missões. O intuito é o engajamento dos funcionários, desenvolvendo maior sociabilidade, desenvolvimento de novas ideias, e o compartilhamento de informações. Se quiser saber mais, pergunte-me sobre o jogo. Para encerrar digite \"fim\", ou \"inicio\" para reiniciar o atendimento. Ajudo em algo mais?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#ajuda",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1604164467758",
+      "previous_sibling": "node_5_1603507919165"
+    },
+    {
+      "type": "standard",
+      "title": "Direcionando a cadastros",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sobre cadastros, posso lhe explicar como adicionar, remover, ou editar cadastros. Informo que ao digitar coloque o que deseja e digite cadastro, como no exemplo \"adicionar cadastro\" ..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#cadastro",
+      "dialog_node": "node_4_1604167510038",
+      "previous_sibling": "node_4_1604164467758"
+    },
+    {
+      "type": "standard",
+      "title": "Saudação",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Oi, como vai? Em que posso ajudar?"
+              },
+              {
+                "text": "Estou bem e você?"
+              },
+              {
+                "text": "Ok, estou á sua disposição no que posso te ajudar?"
+              },
+              {
+                "text": "Pode me perguntar assuntos relacionados ao game, missões, cadastros..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#saudar",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1603507919165",
+      "previous_sibling": "node_9_1604170014197"
+    },
+    {
+      "type": "standard",
+      "title": "Direcionando para missões",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sobre missões, posso lhe explicar como adicionar, remover, editar ou visualizar. Informo que ao digitar coloque o que deseja e digite missões, como no exemplo \"adicionar missões\" ..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Missões",
+      "dialog_node": "node_5_1604167236873",
+      "previous_sibling": "node_7_1604166665618"
+    },
+    {
+      "type": "standard",
+      "title": "Adicionar cadastro",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Certo, para realizar a adição de novo cadastro, o usuário deverá logar no sistema, e selecionar a opção de adicionar cadastro e após confirmar. Ajudo em algo mais?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#adicionar_cadastro",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1603487140928",
+      "previous_sibling": "node_1_1604168580726"
+    },
+    {
+      "type": "standard",
+      "title": "Direcionando o usuário",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, para facilitar o nosso entendimento, vou lhe apresentar exemplos de palavras-chaves para lhe direcionar. Se deseja continuar digite \"palavra-chave\", \"inicio\" para reiniciar o sistema ou \"fim\" para encerrar o atendimento. "
+              },
+              {
+                "text": "Ótimo, estou aqui para auxiliá-lo!\nPara melhor compreensão, digite termos como \"inicio\", \"ajuda\", \"missões\", \"cadastros\", \"jogo\", e \"fim\" e assim irei lhe orientar."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#sim",
+      "dialog_node": "node_7_1604166665618",
+      "previous_sibling": "node_4_1604167510038"
+    },
+    {
+      "type": "standard",
+      "title": "Reinicio do sistema",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá! Seja bem vindo(a) novamente!\n\nÉ um prazer lhe atender, sou o Bot Toppo, e estou a disposição para esclarecer duvidas sobre o sistema\nEm que posso lhe ajudar?\n\nTodavia gostaria de lhe informar que á qualquer momento para reiniciar o atendimento digite \"inicio\", e \"fim\" para encerrar."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#inicio",
+      "dialog_node": "node_8_1604166451112",
+      "previous_sibling": "node_1_1604167992213"
+    },
+    {
+      "type": "standard",
+      "title": "Editar cadastro",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Entendido. Para editar o cadastro, o usuário deverá estar logado, e após selecionar a opção editar em cadastro. Em que mais posso ajudar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#editar_cadastro",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_9_1603487467872",
+      "previous_sibling": "node_2_1603487233788"
+    },
+    {
+      "type": "standard",
+      "title": "Direcionando o usuário para sair",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Bom, entendi uma resposta negativa, se desejar encerram nosso atendimento digite \"fim\", ou \"sair\", mas se preferir continuar, digite \"palavra-chave\", ou \"inicio\". É um prazer lhe atender."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#nao",
+      "dialog_node": "node_9_1604170014197",
+      "previous_sibling": "Bem-vindo"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Você quis dizer:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Nenhuma das anteriores"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    }
+  },
+  "learning_opt_out": false,
+  "name": "Game Toppo - B2W",
+  "language": "pt-br",
+  "description": "Skill designada para as missões, e ranking dos funcionários da B2W."
+}

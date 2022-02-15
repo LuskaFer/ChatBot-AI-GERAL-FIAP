@@ -1,0 +1,10 @@
+
+
+
+Bot Toppo - B2W
+
+Assistant ID: 63a506cd-1a89-449a-b389-1cc1d3bb2316
+
+Assistant URL: https://api.us-south.assistant.watson.cloud.ibm.com/instances/7bea9d6b-d5fd-4d07-99aa-e0682b83139a/v2/assistants/63a506cd-1a89-449a-b389-1cc1d3bb2316/sessions
+
+Api Key: JGH0Q_mkG0vZMYUiYtj76ZSMRFpuk42dgOhms63mPR0d
